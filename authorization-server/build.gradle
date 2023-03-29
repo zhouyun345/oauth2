@@ -1,21 +1,5 @@
-plugins {
-    id "org.springframework.boot" version "2.7.10"
-    id "io.spring.dependency-management" version "1.0.11.RELEASE"
-    id "java"
-}
-
-group = project.rootProject.group
-version = project.rootProject.version
-sourceCompatibility = "11"
-
-repositories {
-    mavenCentral()
-    maven { url "https://repo.spring.io/milestone" }
-}
 
 dependencies {
-    implementation "org.springframework.boot:spring-boot-starter-web"
-    implementation "org.springframework.boot:spring-boot-starter-security"
     implementation "org.springframework.boot:spring-boot-starter-jdbc"
     implementation 'org.springframework.security:spring-security-oauth2-authorization-server:0.4.1'
 //	runtimeOnly "com.h2database:h2"
