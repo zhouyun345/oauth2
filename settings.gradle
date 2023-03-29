@@ -1,0 +1,5 @@
+rootProject.name = 'oauth2'
+include 'message-client'
+include 'authorization-server'
+include 'resource-server'
+
